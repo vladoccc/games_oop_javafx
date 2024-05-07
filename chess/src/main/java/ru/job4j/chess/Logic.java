@@ -29,6 +29,7 @@ public final class Logic {
                 }
             }
         }
+
         return true;
     }
 

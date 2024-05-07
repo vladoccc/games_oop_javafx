@@ -21,6 +21,7 @@ public class BishopBlack implements Figure {
         if (!isDiagonal(position, dest)) {
             throw new ImpossibleMoveException(
                     String.format("Could not move by diagonal from %s to %s", position, dest)
+
             );
         }
         int size = Math.abs(position.getX() - dest.getX());
