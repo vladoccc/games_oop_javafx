@@ -36,4 +36,5 @@ class BishopBlackTest {
         assertThrows(ImpossibleMoveException.class,
                 () -> diagonal.way(Cell.D1));
     }
+
 }

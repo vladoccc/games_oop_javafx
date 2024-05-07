@@ -26,6 +26,7 @@ public final class Logic {
             for (Cell step : steps) {
                 if (figure != null && figure.position().equals(step)) {
                     throw new OccupiedCellException("There is another figure on the way");
+
                 }
             }
         }

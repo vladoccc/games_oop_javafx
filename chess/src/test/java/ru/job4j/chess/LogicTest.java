@@ -18,6 +18,7 @@ public class LogicTest {
                 () -> {
                     logic.move(Cell.C1, Cell.H6);
                 });
+
         assertThat(exception.getMessage()).isEqualTo("Figure not found on the board.");
     }
 
